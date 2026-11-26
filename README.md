@@ -33,3 +33,7 @@ git push -u origin main
 hello@vtw-productions.com needs an inbox: use Google Workspace, Zoho Mail or your registrar's email forwarding, and add the MX records they give you.
 
 Note: Clue is subject to licensing (Concord Theatricals). Dates and prices for Clue are placeholders.
+
+## Security
+- `_headers` adds HTTPS-only (HSTS), a content security policy, clickjacking protection and other standard headers. Keep it in the folder you deploy.
+- Netlify provides the free HTTPS certificate. For vtw-productions.com it appears after the DNS records are verified (see above).
